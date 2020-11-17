@@ -26,11 +26,14 @@ VAL_INTERVAL = 3
 split_dir = os.path.join(".", "data", "splitData")
 train_dir = os.path.join(split_dir, "train")
 valid_dir = os.path.join(split_dir, "valid")
-
+if not os.path.exists(train_dir):
+    os.makedirs(train_dir)
+if not os.path.exists(valid_dir):
+    os.mkdir(valid_dir)
 #对数据集做预处理
 
-train_data = handsDataset(dataset=train_dir, transforms=True)
-valid_data = handsDataset(dataset=valid_dir, transforms=True)
+train_data = handsDataset(dataset=train_dir)
+valid_data = handsDataset(dataset=valid_dir)
 
 train_loader = DataLoader(dataset=train_data, batch_size=BATCH_SIZE, shuffle=True)
 valid_loader = DataLoader(dataset=valid_data, batch_size=BATCH_SIZE, shuffle=True)
