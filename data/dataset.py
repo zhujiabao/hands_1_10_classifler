@@ -11,12 +11,13 @@ class handsDataset(Dataset):
 
         self.transform = transforms.Compose([
                                     transforms.Resize((224,224)),
-                                    transforms.RandomResizedCrop(),
+                                    transforms.RandomResizedCrop(224),
                                     transforms.RandomHorizontalFlip(p=0.5),
                                     transforms.ToTensor()
                                     ])
-
-        self.data_info = self.get_img_info(data_dir)
+        #print(data_dir)
+        self.data_dir = data_dir
+        self.data_info = self.get_img_info()
 
     def __getitem__(self, item):
         path_img, label = self.data_info[item]
@@ -27,20 +28,21 @@ class handsDataset(Dataset):
     def __len__(self):
         return len(self.data_info)
 
-    @staticmethod
-    def get_img_info(self, data_dir):
-        data_info = list()
+    #@staticmethod
+    def get_img_info(self):
+        data_info = []
 
-        for root, dirs, _ in os.walk(data_dir):
+        for root, dirs, _ in os.walk(self.data_dir):
             #遍历类别
             for sub_dir in dirs:
                 img_names = os.listdir(os.path.join(root, sub_dir))
-
+                #print(sub_dir)
                 img_names = list(filter(lambda x: x.endswith(".jpg"), img_names))
-
+                #print(img_names)
                 for i in range(len(img_names)):
-                    img_names = img_names[i]
-                    path_img = os.path.join(root, sub_dir, img_names)
+                    #print(i)
+                    img_name = img_names[i]
+                    path_img = os.path.join(root, sub_dir, img_name)
                     label = sub_dir
                     data_info.append((path_img, int(label)))
 

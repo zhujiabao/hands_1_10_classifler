@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2dfebd3d-fdef-48b1-8ceb-2d8ba81188bd" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/hands_1_10_classifler.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/hands_1_10_classifler.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/dataset.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/dataset.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/train.py" beforeDir="false" afterPath="$PROJECT_DIR$/train.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +32,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$USER_HOME$/PycharmProjects/Digital_twins/venv_py" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -107,30 +112,38 @@
       <screen x="1920" y="0" width="1920" height="1080" />
     </state>
     <state x="2577" y="137" width="596" height="798" key="#mobilenetV3/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605578446238" />
-    <state width="1899" height="198" key="GridCell.Tab.0.bottom" timestamp="1605604754124">
+    <state x="371" y="248" width="424" height="479" key="FileChooserDialogImpl" timestamp="1605748801708">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605604754124" />
+    <state x="371" y="248" width="424" height="479" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605748801708" />
+    <state width="1899" height="23" key="GridCell.Tab.0.bottom" timestamp="1605607983014">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="23" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605607983014" />
     <state width="1899" height="368" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605604600154" />
-    <state width="1899" height="198" key="GridCell.Tab.0.center" timestamp="1605604754124">
+    <state width="1899" height="23" key="GridCell.Tab.0.center" timestamp="1605607983014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605604754124" />
+    <state width="1899" height="23" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605607983014" />
     <state width="1899" height="368" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605604600154" />
-    <state width="1899" height="198" key="GridCell.Tab.0.left" timestamp="1605604754124">
+    <state width="1899" height="23" key="GridCell.Tab.0.left" timestamp="1605607983014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605604754124" />
+    <state width="1899" height="23" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605607983014" />
     <state width="1899" height="368" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605604600154" />
-    <state width="1899" height="198" key="GridCell.Tab.0.right" timestamp="1605604754124">
+    <state width="1899" height="23" key="GridCell.Tab.0.right" timestamp="1605607983014">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="198" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605604754124" />
+    <state width="1899" height="23" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605607983014" />
     <state width="1899" height="368" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605604600154" />
-    <state x="464" y="168" key="SettingsEditor" timestamp="1605604649205">
+    <state x="464" y="135" key="SettingsEditor" timestamp="1605749319089">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="464" y="168" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605604649205" />
+    <state x="464" y="135" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605749319089" />
     <state x="2384" y="174" key="SettingsEditor/0.0.1920.1040/1920.0.1920.1080@1920.0.1920.1080" timestamp="1605578864528" />
+    <state x="745" y="210" width="419" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1605748922062">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="745" y="210" width="419" height="613" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1040/1920.0.1920.1080@0.0.1920.1040" timestamp="1605748922062" />
   </component>
 </project>
